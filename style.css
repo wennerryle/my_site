@@ -89,14 +89,14 @@ header {
 .anime_bg {
   display: inline;
   clip-path: polygon(4px 0, 100% 0, 100% 100%, 0 100%);
-  background: repeat url(./img/anime_pattern.png);
+  background: repeat url(/img/anime_pattern.png);
   background-position-x: right;
   min-height: 30px;
 }
 
 .anime_bg_outer {
   display: inline;
-  background: repeat url(./img/anime_pattern.png);
+  background: repeat url(/img/anime_pattern.png);
   background-position-x: -1px;
   min-height: 30px;
 }
@@ -174,7 +174,7 @@ header {
 }
 
 .scissors_animation > div {
-  background: bottom left repeat-x url("./img/skateboard_line.svg");
+  background: bottom left repeat-x url("/img/skateboard_line.svg");
 }
 
 .sections {
@@ -234,7 +234,7 @@ header {
 }
 
 .curved_lines_pattern {
-  background: repeat url("./img/curved_lines_pattern.png");
+  background: repeat url("/img/curved_lines_pattern.png");
 }
 
 .projects_wrap {
@@ -373,6 +373,10 @@ footer > p {
   .myphoto {
     height: 250px;
     width: 269px;
+  }
+
+  .wide_blocks {
+    display: none;
   }
 
   .anime_bg {
