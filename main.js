@@ -19,7 +19,6 @@ const headerStore = {
     header: document.querySelector('header'),
     _collapsed: false,
     set collapsed(value) {
-        console.log(window.matchMedia('').matches)
         if (this._collapsed === value) return;
         if (!window.matchMedia('(min-width: 690px)').matches) return;
 

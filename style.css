@@ -89,14 +89,14 @@ header {
 .anime_bg {
   display: inline;
   clip-path: polygon(4px 0, 100% 0, 100% 100%, 0 100%);
-  background: repeat url(/img/anime_pattern.png);
+  background: repeat url(/img/anime_pattern.webp);
   background-position-x: right;
   min-height: 30px;
 }
 
 .anime_bg_outer {
   display: inline;
-  background: repeat url(/img/anime_pattern.png);
+  background: repeat url(/img/anime_pattern.webp);
   background-position-x: -1px;
   min-height: 30px;
 }
@@ -234,7 +234,7 @@ header {
 }
 
 .curved_lines_pattern {
-  background: repeat url("/img/curved_lines_pattern.png");
+  background: repeat url("/img/curved_lines_pattern.webp");
 }
 
 .projects_wrap {
@@ -346,6 +346,10 @@ footer > p {
 }
 
 @media (width <= 1024px) {
+  .wide_blocks {
+    display: none;
+  }
+
   .about_me_block_space {
     border: 0;
   }
@@ -373,10 +377,6 @@ footer > p {
   .myphoto {
     height: 250px;
     width: 269px;
-  }
-
-  .wide_blocks {
-    display: none;
   }
 
   .anime_bg {
